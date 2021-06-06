@@ -1,0 +1,23 @@
+{
+  "name": "firebase-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-firebase/auth": "^0.2.10",
+    "firebase": "^8.6.5",
+    "parcel": "^2.0.0-beta.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13"
+  }
+}
