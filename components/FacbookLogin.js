@@ -1,5 +1,6 @@
 import React from "react";
 import { FirebaseAuthConsumer } from "@react-firebase/auth";
+import firebase from "firebase/app";
 
 export default FacbookLogin = () => {
   return (

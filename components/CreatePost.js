@@ -39,6 +39,8 @@ export default CreatePost = ({ runMutation, user }) => {
       >
         Save Record
       </button>
+      <br />
+      <br />
     </div>
   );
 };
