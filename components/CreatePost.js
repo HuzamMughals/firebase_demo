@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default CreatePost = ({ runMutation }) => {
+export default CreatePost = ({ runMutation, user }) => {
   const [name, setName] = useState("");
   const [date, setDate] = useState("");
 
@@ -31,6 +31,7 @@ export default CreatePost = ({ runMutation }) => {
           runMutation({
             date,
             name,
+            email: user.email,
           }).then((res) => {
             console.log("Record saved ", res);
           });
